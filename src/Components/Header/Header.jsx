@@ -1,4 +1,5 @@
 import React, { useRef } from 'react'
+import { Home } from "../Home/Home"
 
 export const Header = () => {
   const ref = useRef();
@@ -8,7 +9,8 @@ export const Header = () => {
   })
 
   return (
-    <header ref={header} className='w-full h-[12rem] bg-[url("./image/bg_header-01.png")] bg-cover bg-center bg-no-repeat z-50 relative mt-4 flex items-center justify-between px-12'>
+   <>
+     <header ref={header} className='w-full h-[12rem] bg-[url("./image/bg_header-01.png")] bg-cover bg-center bg-no-repeat z-50 relative mt-4 flex items-center justify-between px-12'>
       <div className="w-[10rem]">
         <img src="./image/logo.png" alt="" />
       </div>
@@ -27,5 +29,7 @@ export const Header = () => {
       </div>
       </nav>
     </header>
+    <Home />
+   </>
   )
 }

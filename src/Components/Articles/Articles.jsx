@@ -1,15 +1,16 @@
 import React from "react";
+import { Fruit } from "../Fruit/Fruit";
 
 export const Articles = () => {
   return (
     <>
-      <div className="flex items-center justify-center flex-col mt-[5rem] px-6">
+      <div className="flex items-center justify-center flex-col mt-[5rem] px-6 max-[990px]:items-center max-[990px]:text-center">
         <p className="text-gray-600 italic font-mono text-[0.8rem]">
           The freshest and most exciting news
         </p>
         <h2 className="text-5xl font-semibold">Our Latest Articles</h2>
 
-        <div className="w-full h-[70vh] flex items-center justify-between gap-4 mt-5">
+        <div className="w-full h-[70vh] flex items-center justify-between gap-4 mt-5 max-[990px]:flex-wrap">
           <div className="w-full h-full">
             <div className='w-full h-1/2 bg-[url("./image/post-thumb-01.jpg")] bg-center bg-cover bg-no-repeat relative'>
               <div className="w-full h-full absolute hover:bg-[#0000003a] transition flex items-center justify-center"></div>
@@ -158,6 +159,8 @@ export const Articles = () => {
           </div>
         </div>
       </div>
+
+      <Fruit />
     </>
   );
 };

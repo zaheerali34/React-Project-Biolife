@@ -1,0 +1,28 @@
+[
+    {
+        title: "Fresh Fruit",
+        heading: "National Fresh Fruit",
+        price: "£85.00 £95.00",
+        shipping: "3-Day Shipping",
+        des: "All products are carefully selected to ensure food safety.",
+        img: "./image/products/p-01.jpg"
+    },
+
+    {
+        title: "Fresh Fruit",
+        heading: "National Fresh Fruit",
+        price: "£85.00 £95.00",
+        shipping: "3-Day Shipping",
+        des: "All products are carefully selected to ensure food safety.",
+        img: "./image/products/p-01.jpg"
+    },
+
+    {
+        title: "Fresh Fruit",
+        heading: "National Fresh Fruit",
+        price: "£85.00 £95.00",
+        shipping: "3-Day Shipping",
+        des: "All products are carefully selected to ensure food safety.",
+        img: "./image/products/p-01.jpg"
+    }
+]
